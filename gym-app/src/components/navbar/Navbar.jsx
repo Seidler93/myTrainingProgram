@@ -3,8 +3,12 @@ import NavBtn from "./NavBtn"
 export default function Navbar() {
   const pages = [
     {page: '/', name: 'Home'},
-    {page: '/', name: 'Camps'},
+    {page: '/', name: 'About'},
     {page: '/', name: 'Programs'},
+    {page: '/', name: 'Camps'},
+    {page: '/', name: 'Login'},
+    {page: '/', name: 'App'},
+    {page: '/', name: 'Cart'},
   ]
 
   return (
