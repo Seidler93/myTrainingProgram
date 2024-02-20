@@ -41,9 +41,9 @@ export default function HomeCamps() {
   ]
 
   return (
-    <div className='d-flex flex-column w-100 justify-content-center align-items-center rel pb-4'>
-      <div className="title mt-5 mb-3"><h2 className="px-5 mt-5 text-dark">UPCOMING CAMPS</h2></div>
-      <div className='d-flex flex-wrap w-100 justify-content-center camp-cont'>
+    <div className='d-flex flex-column w-100 justify-content-center align-items-center rel mb-4'>
+      <div className="title mt-3 mb-5"><h2 className="px-5 mt-5 text-dark">UPCOMING CAMPS</h2></div>
+      <div className='d-flex flex-wrap w-100 justify-content-center camp-cont pb-5'>
         {camps.map((camp) => <HomeCampCard camp={camp}/>)}
       </div>
     </div>

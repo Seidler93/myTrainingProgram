@@ -100,13 +100,15 @@ a {
   transform: scale(1.05);
 }
 
-#home .camp img {
+#home .camp img,
+#home .program img {
   object-fit: cover;
   width: 100%;
   border-radius: 5px;
 }
 
-#home .camp section {
+#home .camp section,
+#home .program section {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.65);
   right: 0;
@@ -116,6 +118,7 @@ a {
   border-radius: 5px;
 }
 
+.program-cont,
 .camp-cont {
   max-width: 1000px;
 }
@@ -138,5 +141,21 @@ a {
   object-fit: cover;
 }
 
+#home .program {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#home .program:hover {
+  transform: scale(1.05);
+}
+
+.program-bg {
+  background-color: rgb(228, 228, 228);
+}
 
 

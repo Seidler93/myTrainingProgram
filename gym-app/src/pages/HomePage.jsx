@@ -1,4 +1,5 @@
-import HomeCamps from "../components/home/HomeCamp"
+import HomeCamps from "../components/home/HomeCamps"
+import HomePrograms from "../components/home/HomePrograms"
 
 export default function HomePage() {
   return (
@@ -10,6 +11,8 @@ export default function HomePage() {
       </div>
       {/* Upcoming camps */}
       <HomeCamps/>
+      {/* Programs */}
+      <HomePrograms/>
     </div>
   )
 }
