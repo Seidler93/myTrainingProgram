@@ -34,8 +34,11 @@ export default function HomePrograms() {
   ]
 
   return (
-    <div className='d-flex flex-column w-100 justify-content-center align-items-center rel pb-4 program-bg'>
-      <div className="title mt-3 mb-5"><h2 className="px-5 mt-5 text-dark">Programs</h2></div>
+    <div className='d-flex flex-column w-100 justify-content-center align-items-center rel pb-4 program-bg' style={{backgroundImage: 'url("/bg.jpg")'}}>
+      {/* <div className='d-flex flex-wrap w-100 justify-content-center camp-bg'>
+        <img src='/stadium.webp'alt=""/>
+      </div> */}
+      <div className="title mt-3 mb-5"><h2 className="px-5 mt-5 text-dark">PROGRAMS</h2></div>
       <div className='d-flex flex-wrap w-100 justify-content-center program-cont'>
         {programs.map((program) => <HomeProgramCard program={program}/>)}
       </div>
