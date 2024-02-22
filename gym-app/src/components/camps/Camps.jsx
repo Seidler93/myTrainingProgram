@@ -41,8 +41,8 @@ export default function Camps() {
   ]
 
   return (
-    <>
+    <div className="max-w">
       {camps.map((camp) => <CampCard camp={camp}/>)}
-    </>
+    </div>
   )
 }

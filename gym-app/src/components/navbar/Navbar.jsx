@@ -3,9 +3,9 @@ import NavBtn from "./NavBtn"
 export default function Navbar() {
   const pages = [
     {page: '/', name: 'Home'},
-    {page: '/about', name: 'About'},
+    {page: '/about', name: 'About', dropdown: false},
     {page: '/', name: 'Programs'},
-    {page: '/', name: 'Camps'},
+    {page: '/camps', name: 'Camps'},
     {page: '/', name: 'Login'},
     {page: '/', name: 'App'},
     {page: '/', name: 'Cart'},

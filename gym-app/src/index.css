@@ -194,14 +194,18 @@ footer button {
   color: white;
 }
 
+#camps .camp button,
 .sub-btn {
-  background-color: rgba(163, 163, 163, 0.178);
-  padding: 6px 12px;
+  color: white;
+  border: none;
+  background-color: rgb(61, 61, 61);
+  padding: 8px 16px;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: background-color 0.3s ease;
 }
 
+#camps .camp button:hover,
 .sub-btn:hover {
   background-color: grey;
 }
@@ -223,6 +227,20 @@ footer input {
 #about div{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 5px;
+}
+
+
+#camps .camp img {
+  object-fit: cover;
+  width: 500px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#camps .camp {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
